@@ -106,12 +106,9 @@ footer ul{
 footer li{
     margin-bottom: 6px;
 }
-footer li:first-of-type{
-    margin-top: 2px;
-}
-footer ul:before{
-    content:attr(heading);
+.list_heading{
     color: white;
+    margin-bottom: 1.8px;
 }
 .copyright {
     color: #A0A0A0;
@@ -122,3 +119,4 @@ footer ul:before{
     flex-flow: row nowrap;
     flex-grow: 1;
 }
+
